@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import telebot
 
 # ---------------- CONFIG ----------------
-TELEGRAM_BOT_TOKEN = "7615601773:AAGncqQ2HMu28bDWoA1zaMnW_DSDTBrL268" #replace with your bot token 
-ADMIN_CHAT_ID = "1621690094" #replace with your chat id
+TELEGRAM_BOT_TOKEN = ":" #replace with your bot token 
+ADMIN_CHAT_ID = "" #replace with your chat id
 COOKIES_FILE = "cookies.json"
 CONFIG_FILE = "config.json"
 CHECK_INTERVAL_SECONDS = 3.0
@@ -14,9 +14,9 @@ MONITOR_LOOP_SLEEP = 1.5
 
 PINCODE = "689691"
 ADDRESS_ID = "auto"   # keep "auto" — detection only
-USER_EMAIL = "justinkjames04@gmail.com"#replace with your email
-USER_MOBILE = "7025183517" #replace with your number 
-USER_ID = "6c6377af-dccf-4c59-b539-6078b69ee22d"
+USER_EMAIL = "@gmail.com"#replace with your email
+USER_MOBILE = "" #replace with your number 
+USER_ID = "6c6377af----6078b69ee22d"
 
 # Endpoints
 URL_MICROCART = "https://www.sheinindia.in/api/cart/microcart"
